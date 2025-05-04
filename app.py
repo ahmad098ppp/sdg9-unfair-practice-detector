@@ -61,7 +61,7 @@ def analyze_content(prompt, content_input):
 
 # --- Define the Core Prompt ---
 SDG9_PROMPT = """
-You are an AI assistant specialized in analyzing potential violations of Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure), focusing specifically on potential signs of unfair or unsustainable industrial practices based only on the provided input (text description or image).
+You are an AI assistant specialized in analyzing violations of Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure), focusing specifically on signs of unfair or unsustainable industrial practices based only on the provided input (text description or image).
 
 Analyze the provided input:
 1. Identify any visual or described elements that might indicate issues related to SDG 9, such as:
@@ -69,11 +69,10 @@ Analyze the provided input:
    * Lack of Resilient Infrastructure: Visibly unsafe factory buildings, damaged infrastructure caused by industrial activity.
    * Non-Inclusive/Unfair Labor Practices (Visual Cues): Lack of safety equipment, signs of child labor, overcrowded or unsafe environments.
    * Technological Gaps: Outdated, poorly maintained, or highly polluting machinery.
-2. Explain your reasoning for each identified element, linking it to SDG 9 concerns.
-3. State limitations: Acknowledge if input provides limited evidence or if interpretations are uncertain.
-4. If no clear indicators are found, state that clearly.
+2. Explain your reasoning for each identified element, linking it to SDG 9 concerns, profoundly and precisely in the narrative of UN and SDG literature, as if you are an officer of the UN. Acknowledge if input provides limited evidence or if interpretations are uncertain.
+3. If no clear indicators are found, state that clearly.
 
-Do not make definitive judgments. Focus on potential indicators only.
+Make very strong definitive judgments, as if the judgment is universal. Focus on indicators which are violating SDG 9 and be very acute in your observation.
 """
 
 # --- Streamlit App UI ---
