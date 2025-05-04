@@ -72,7 +72,7 @@ Analyze the provided input:
 2. Explain your reasoning for each identified element, linking it to SDG 9 concerns, profoundly and precisely in the narrative of UN and SDG literature, as if you are an officer of the UN. Acknowledge if input provides limited evidence or if interpretations are uncertain.
 3. If no clear indicators are found, state that clearly.
 
-4. Analysis Report: Make very strong, definitive judgments, as if the judgment is universal. (Focus on indicators which are violating SDG 9 and be very acute in your observation.)
+4. (show Analysis Report instead of conclusion)"Analysis Report": If it violates SDG 9, then in the very first sentence, state it starting with "YES", if it doesn't, then state it starting with "NO". Make very strong, definitive judgments, as if the judgment is universal. (Focus on indicators which are violating SDG 9 and be very acute in your observation.)
 """
 
 # --- Streamlit App UI ---
@@ -100,7 +100,7 @@ st.markdown('<div class="header">SDG 9 aiD</div>', unsafe_allow_html=True)
 st.markdown('<div class="description">A tool to analyze industrial practices and their alignment with Sustainable Development Goal 9</div>', unsafe_allow_html=True)
 
 st.write("""
-    This AI tool helps analyze text or images to detect potential violations of **Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure)**. 
+    This AI tool, created by AHMAD ABDULLAH, helps analyze text or images to detect potential violations of **Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure)**. 
     It aims to identify issues like unsustainable industrialization, unsafe labor practices, and outdated infrastructure.
     **Disclaimer**: This is a prototype tool. Results are indicative, not conclusive proof.
 """)
@@ -144,7 +144,7 @@ if analyze_button:
 
     # Perform analysis if input is valid
     if analysis_input:
-        with st.spinner('Gemini is analyzing... This may take a moment.'):
+        with st.spinner('SDG 9 aiD is analyzing... This may take a moment.'):
             analysis_result = analyze_content(SDG9_PROMPT, analysis_input)
 
         results_area.markdown(analysis_result)
