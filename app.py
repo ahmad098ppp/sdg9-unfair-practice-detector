@@ -100,7 +100,7 @@ st.markdown('<div class="header">SDG 9 aiD</div>', unsafe_allow_html=True)
 st.markdown('<div class="description">A tool to analyze industrial practices and their alignment with Sustainable Development Goal 9</div>', unsafe_allow_html=True)
 
 st.write("""
-    This AI tool, created by AHMAD ABDULLAH, helps analyze text or images to detect potential violations of **Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure)**. 
+    This AI model, created by AHMAD ABDULLAH, helps analyze text or images to detect potential violations of **Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure)**. 
     It aims to identify issues like unsustainable industrialization, unsafe labor practices, and outdated infrastructure.
     **Disclaimer**: This is a prototype tool. Results are indicative, not conclusive proof.
 """)
