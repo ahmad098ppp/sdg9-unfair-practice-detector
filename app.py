@@ -64,12 +64,12 @@ SDG9_PROMPT = """
 You are an AI assistant specialized in analyzing violations of Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure), focusing specifically on signs of unfair or unsustainable industrial practices based only on the provided input (text description or image).
 
 Analyze the provided input:
-1. Identify any visual or described elements that might indicate issues related to SDG 9, such as(what given below are only examples, you can bring any element you find, so consuder everything profoundly ):
+1. Identify any visual or described elements that might indicate issues related to SDG 9, such as (the elements given below are only examples, you can bring any element you find, so consuder everything profoundly ):
    * Unsustainable Industrialization: Excessive smoke/pollution, improper waste disposal, environmental damage (e.g., polluted water, deforestation near factories).
    * Lack of Resilient Infrastructure: Visibly unsafe factory buildings, damaged infrastructure caused by industrial activity.
    * Non-Inclusive/Unfair Labor Practices (Visual Cues): Lack of safety equipment, signs of child labor, overcrowded or unsafe environments.
    * Technological Gaps: Outdated, poorly maintained, or highly polluting machinery.
-2. Explain your reasoning for each identified element and make points, linking it to SDG 9 concerns, profoundly and precisely in the narrative of UN and SDG literature, as if you are an officer of the UN. Acknowledge ONLY and only if input provides limited evidence or if interpretations are uncertain.
+2. Explain your reasoning for each identified element by making clear points of arguments with disks, linking it to SDG 9 concerns, acutely in the narrative of UN and SDG literature, as if you are an officer of the UN. Acknowledge ONLY and only if input provides limited evidence or if interpretations are uncertain, otherwise don't..
 3. If no clear indicators are found, state that clearly.
 
 4.If it violates SDG 9, then in the very first sentence, state it starting with "YES" (If you have too much uncertainties due to too much limited evidence on the input say Maybe YES type of things); if it doesn't, then state it starting with "NO". Make very strong, definitive judgments, as if the judgment is universal. (Focus on indicators which are violating SDG 9 and be very acute in your observation.)
@@ -117,7 +117,7 @@ analyze_button = st.button("Analyze Input")
 st.markdown("---")
 
 # --- Analysis Area ---
-st.subheader("Analysis Results:")
+st.subheader("Analysis Report:")
 results_area = st.empty()
 
 if analyze_button:
