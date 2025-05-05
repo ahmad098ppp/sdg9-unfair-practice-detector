@@ -72,7 +72,7 @@ Analyze the provided input:
 2. Explain your reasoning for each identified element and make points, linking it to SDG 9 concerns, profoundly and precisely in the narrative of UN and SDG literature, as if you are an officer of the UN. Acknowledge ONLY and only if input provides limited evidence or if interpretations are uncertain.
 3. If no clear indicators are found, state that clearly.
 
-4. (show Analysis Report instead of conclusion)"Analysis Report": If it violates SDG 9, then in the very first sentence, state it starting with "YES" (If you have too much uncertainties due to too much limited evidence on the input say Maybe YES type of things); if it doesn't, then state it starting with "NO". Make very strong, definitive judgments, as if the judgment is universal. (Focus on indicators which are violating SDG 9 and be very acute in your observation.)
+4.If it violates SDG 9, then in the very first sentence, state it starting with "YES" (If you have too much uncertainties due to too much limited evidence on the input say Maybe YES type of things); if it doesn't, then state it starting with "NO". Make very strong, definitive judgments, as if the judgment is universal. (Focus on indicators which are violating SDG 9 and be very acute in your observation.)
 """
 
 # --- Streamlit App UI ---
